@@ -21,10 +21,10 @@ body {
 .submit-btn {
   width: 100%;
   border: none;
-  background-color: #1c1c4c;
+  background-color: #4caf50;
   color: #ffffff;
-  border-radius: 5px;
-  padding: 7px;
+  border-radius: 20px;
+  padding: 12px 20px;
   margin-top: 20px;
   cursor: pointer;
 }

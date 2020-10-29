@@ -18,13 +18,12 @@ function Quiz() {
     async function fetchData() {
       if (submit) {
         const questionsData = await getQuizData(category, level, count);
-        // console.log(questionsData);
         setQuiz(questionsData);
       }
     }
     fetchData();
   }, [submit, category, level, count]);
-  console.log("Duiz data is: ", quiz);
+
   const submitHandler = (e: React.FormEvent<EventTarget>, userAns: string) => {
     e.preventDefault();
     setActiveOptiondiv(Infinity);

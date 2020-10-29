@@ -10,7 +10,6 @@ const Home = () => {
 
   let difficultyLevel = ["Easy", "Medium", "Hard"];
   let questionCount = [5, 10, 15, 20, 25, 30];
-  console.log("Form Data: ", formData);
 
   useEffect(() => {
     async function fetchData() {
