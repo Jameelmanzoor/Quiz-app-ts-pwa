@@ -1,1 +1,59 @@
+.App {
+  text-align: center;
+}
 
+.question-container {
+  max-width: 500px;
+  box-shadow: 0px 5px 24px #867a7a;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: left;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  background-color: #1c1c4c;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.radio {
+  display: block;
+  margin: 9px 0;
+  cursor: pointer;
+}
+
+.option-container {
+  border: 2px solid blue;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+.option-container:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+.active {
+  background-color: burlywood;
+}
+
+h2 + p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
