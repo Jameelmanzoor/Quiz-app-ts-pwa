@@ -44,13 +44,16 @@ function Quiz() {
 
   if (showResult) {
     return (
-      <div className="question-container">
-        <h2>Final Result</h2>
-        <p>
-          You Score is <b>{score} </b> out of <b>{quiz.length}</b>
-        </p>
-        <button onClick={() => setSubmit(false)}>Restart Quiz</button>
-      </div>
+      <>
+        <h2>Quiz App</h2>
+        <div className="question-container">
+          <h2 className="show-result-heading">Final Result</h2>
+          <p>
+            You Score is <b>{score} </b> out of <b>{quiz.length}</b>
+          </p>
+          <button onClick={() => setSubmit(false)}>Restart Quiz</button>
+        </div>
+      </>
     );
   }
   return (

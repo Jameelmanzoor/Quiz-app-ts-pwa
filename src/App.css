@@ -1,3 +1,8 @@
+body {
+  /* background-color: rgb(56, 62, 78); */
+  background-color: #2f4454;
+  color: #ffffff;
+}
 .App {
   text-align: center;
 }
@@ -56,4 +61,18 @@ h2 + p {
 
 h3 {
   text-align: center;
+  margin-top: 0;
+  background-color: #2a1b3d;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.radio > span {
+  margin-left: 10px;
+}
+
+.show-result-heading {
+  margin-top: auto;
+  text-shadow: none;
 }
