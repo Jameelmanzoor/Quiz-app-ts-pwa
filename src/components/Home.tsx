@@ -5,7 +5,7 @@ import "./home.css";
 import { useData } from "../context/GlobalContex";
 
 const Home = () => {
-  const { formData, setFormData, setSubmit } = useData()!;
+  const { setFormData, setSubmit } = useData()!;
   const [categories, setCategories] = useState<CategoriesType[]>([]);
 
   let difficultyLevel = ["Easy", "Medium", "Hard"];
