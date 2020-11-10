@@ -11,6 +11,9 @@
 # production
 /build
 
+# Deployment after build on firebase
+/public_
+
 # misc
 .DS_Store
 .env.local
