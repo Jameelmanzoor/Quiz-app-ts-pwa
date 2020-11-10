@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy Quiz App with TypeScript on Surge
+name: Deploy PWA Quiz App with TypeScript on Surge
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -39,4 +39,4 @@ jobs:
       - name: Install surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./build quiz_app_ts_jameel.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build quiz_app_ts_pwa_jameel.surge.sh --token ${{secrets.SURGE_TOKEN}}
